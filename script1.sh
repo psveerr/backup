@@ -2,7 +2,7 @@
 
 # Environment Variables
 THRESHOLD=80
-EMAIL="ayaan171104@gmail.com"
+EMAIL="12veer34raj@gmail.com"
 PROCESS_NAME="apache2"
 RESTART_COMMAND="sudo systemctl restart apache2"
 
