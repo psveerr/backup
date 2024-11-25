@@ -28,7 +28,7 @@ pipeline {
             steps {
                 script {
                     sh '''
-                        chmod +x script1_2.sh
+                        chmod +x meow.sh
                         ./meow.sh
                     '''
                 }
