@@ -5,7 +5,7 @@ pipeline {
         ALERT_EMAIL = "12veer34raj@gmail.com"      
         PROCESS_NAME = "apache2"              
         RESTART_COMMAND = "sudo systemctl restart apache2" 
-        DISK_THRESHOLD = 80                   
+        DISK_THRESHOLD = 20                   
     }
     triggers{
         cron('H * * * *')
