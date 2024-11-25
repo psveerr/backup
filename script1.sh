@@ -4,5 +4,5 @@ if [ "$DISK_USAGE" -gt 90 ]; then
     echo "WARNING: Disk usage is above 80% ($DISK_USAGE%)"
     exit 1
 else
-    echo "Disk usage is normal: $DISK_USAGE%"
+    echo "Disk usage is normal: $DISK_USAGE-10%"
 fi
